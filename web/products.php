@@ -63,7 +63,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
       <div class="container">
-        <a class="navbar-brand fw-bold" href="index.html">
+        <a class="navbar-brand fw-bold" href="index.php">
           <i class="bi bi-capsule me-2"></i>Squib Healthcare LTD
         </a>
         <button
@@ -77,28 +77,25 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link fw-bold"
-                style="color: #fff"
-                href="products.html"
-                >Products</a
+              <a class="nav-link" href="index.php"
+                >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.html">Services</a>
+              <a class="nav-link fw-bold" style="color: #fff" href="products.php">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="aboutus.html">About Us</a>
+              <a class="nav-link" href="services.php">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.php">About Us</a>
             </li>
             <!-- <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li> -->
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="contact.php">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="careers.html">Careers</a>
+              <a class="nav-link" href="careers.php">Careers</a>
             </li>
           </ul>
         </div>
@@ -450,7 +447,7 @@
             </p>
           </div>
           <div class="col-lg-4 text-lg-end">
-            <a href="index.html#contact" class="btn btn-light btn-lg"
+            <a href="contact.php" class="btn btn-light btn-lg"
               >Contact Us</a
             >
           </div>
@@ -489,27 +486,33 @@
             <h6 class="fw-bold mb-3">Quick Links</h6>
             <ul class="list-unstyled">
               <li>
-                <a href="index.html" class="text-light text-decoration-none"
+                <a href="index.php" class="text-light text-decoration-none"
                   >Home</a
                 >
               </li>
               <li>
-                <a href="products.html" class="text-light text-decoration-none"
+                <a href="products.php" class="text-light text-decoration-none"
                   >Products</a
                 >
               </li>
               <li>
-                <a
-                  href="index.html#services"
-                  class="text-light text-decoration-none"
+                <a href="services.php" class="text-light text-decoration-none"
                   >Services</a
                 >
               </li>
               <li>
-                <a
-                  href="index.html#aboutus"
-                  class="text-light text-decoration-none"
+                <a href="aboutus.php" class="text-light text-decoration-none"
                   >About Us</a
+                >
+              </li>
+              <li>
+                <a href="contact.php" class="text-light text-decoration-none"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a href="careers.php" class="text-light text-decoration-none"
+                  >Careers</a
                 >
               </li>
             </ul>
@@ -552,9 +555,7 @@
                 <a href="#" class="text-light text-decoration-none">FAQs</a>
               </li>
               <li>
-                <a
-                  href="index.html#contact"
-                  class="text-light text-decoration-none"
+                <a href="#contact" class="text-light text-decoration-none"
                   >Contact</a
                 >
               </li>
@@ -596,6 +597,7 @@
           </div>
         </div>
       </div>
+      <button id="scrollToTopBtn" title="Go to top">↑</button>
     </footer>
     <script>
       // Scroll to top button functionality

@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     if (empty($recaptcha)) {
         $errors[] = "Please complete the reCAPTCHA.";
-        header("Location: index.html?recaptcha_error=1");
+        header("Location: index.php?recaptcha_error=1");
         exit;
     }
 
