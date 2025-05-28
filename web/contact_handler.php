@@ -102,10 +102,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $mail->send();
 
-        header("Location: index.html?success=1");
+        header("Location: index.php?success=1");
         exit;
     } catch (Exception $e) {
-        header("Location: index.html?error=1");
+        header("Location: index.php?error=1");
         exit;
     }
 } else {

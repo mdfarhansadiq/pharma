@@ -1,12 +1,9 @@
-FROM php:8.2-apache
+FROM php:apache
 
-# Enable mod_rewrite if needed
-RUN a2enmod rewrite
+WORKDIR /var/www/html
+COPY web .
 
-# Copy all project files to Apache document root
-COPY . /var/www/html/
+ENV PORT=8000
+EXPOSE ${PORT}
 
-# Set permissions
-RUN chown -R www-data:www-data /var/www/html/
-
-EXPOSE 80
+RUN sed -i 's/Listen 80/Listen ${PORT}/' /etc/apache2/ports.conf

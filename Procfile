@@ -1,1 +1,1 @@
-web: heroku-php-nginx pharma/
+web: heroku-php-nginx web/
