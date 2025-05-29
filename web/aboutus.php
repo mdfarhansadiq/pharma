@@ -84,9 +84,9 @@
           <li class="nav-item">
             <a class="nav-link" href="products.php">Products</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="services.php">Services</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link fw-bold" style="color: #fff" href="aboutus.php">About Us</a>
           </li>
@@ -109,7 +109,7 @@
         <div class="col-lg-8">
           <h1 class="display-4 fw-bold mb-3">About Squib Healthcare LTD</h1>
           <p class="lead">
-            Pioneering pharmaceutical excellence for over five decades
+            Pioneering innovation and excellence for over a decade
           </p>
         </div>
         <div class="col-lg-4 text-end">
@@ -132,12 +132,11 @@
         <div class="col-lg-6">
           <h2 class="display-5 fw-bold text-primary mb-4">Our Story</h2>
           <p class="lead mb-4">
-            Founded in 1974, Squib Healthcare LTD began as a small research
-            laboratory with a bold vision: to develop life-changing
+            Founded in 2013, Squib Healthcare LTD began as a small dietary supplement company with a bold vision: to develop life-changing
             medications that would improve the quality of life for people
             around the world.
           </p>
-          <p class="mb-4">
+          <!-- <p class="mb-4">
             From our humble beginnings with just 12 researchers, we have grown
             into a global pharmaceutical powerhouse, but our core mission
             remains unchanged. We are driven by the belief that everyone
@@ -149,7 +148,7 @@
             excellence. Today, we stand proud as one of the leading
             pharmaceutical companies globally, with a portfolio that spans
             multiple therapeutic areas.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
@@ -165,29 +164,29 @@
         </p>
       </div>
       <div class="row g-4">
-        <div class="col-lg-3 col-md-6">
+        <div class="col-md-6">
           <div class="text-center p-4 bg-white rounded shadow-sm h-100">
             <div
               class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
               style="width: 80px; height: 80px">
               <i class="bi bi-calendar-check fs-2"></i>
             </div>
-            <h3 class="text-primary fw-bold mb-1">50+</h3>
+            <h3 class="text-primary fw-bold mb-1">13+</h3>
             <p class="mb-0">Years of Experience</p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-md-6">
           <div class="text-center p-4 bg-white rounded shadow-sm h-100">
             <div
               class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
               style="width: 80px; height: 80px">
               <i class="bi bi-capsule fs-2"></i>
             </div>
-            <h3 class="text-primary fw-bold mb-1">200+</h3>
+            <h3 class="text-primary fw-bold mb-1">10+</h3>
             <p class="mb-0">Products Developed</p>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <!-- <div class="col-lg-3 col-md-6">
           <div class="text-center p-4 bg-white rounded shadow-sm h-100">
             <div
               class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
@@ -197,8 +196,8 @@
             <h3 class="text-primary fw-bold mb-1">100+</h3>
             <p class="mb-0">Countries Served</p>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
+        </div> -->
+        <!-- <div class="col-lg-3 col-md-6">
           <div class="text-center p-4 bg-white rounded shadow-sm h-100">
             <div
               class="bg-primary text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
@@ -208,7 +207,7 @@
             <h3 class="text-primary fw-bold mb-1">5000+</h3>
             <p class="mb-0">Employees Worldwide</p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -477,9 +476,9 @@
             <li>
               <a href="products.php" class="text-light text-decoration-none">Products</a>
             </li>
-            <li>
+            <!-- <li>
               <a href="services.php" class="text-light text-decoration-none">Services</a>
-            </li>
+            </li> -->
             <li>
               <a href="aboutus.php" class="text-light text-decoration-none">About Us</a>
             </li>

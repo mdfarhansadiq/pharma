@@ -136,7 +136,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     counters.forEach((counter) => {
       const target = parseInt(counter.textContent.replace(/\D/g, ""));
-      console.log(`Animating counter to: ${target}`);
       const suffix = counter.textContent.replace(/\d/g, "");
       let current = 0;
       const increment = target / 50;

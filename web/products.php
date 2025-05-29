@@ -84,9 +84,9 @@
             <li class="nav-item">
               <a class="nav-link fw-bold" style="color: #fff" href="products.php">Products</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="services.php">Services</a>
-            </li>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="aboutus.php">About Us</a>
             </li>
@@ -109,8 +109,8 @@
           <div class="col-lg-8">
             <h1 class="display-4 fw-bold mb-3">Our Products</h1>
             <p class="lead">
-              Comprehensive range of pharmaceutical solutions for better health
-              outcomes worldwide
+              Comprehensive range of dietary supplements for solutions for better health
+              outcomes
             </p>
           </div>
           <div class="col-lg-4 text-end">
@@ -121,237 +121,196 @@
     </section>
 
     <!-- Product Categories -->
-    <section class="py-5">
+    <section id="products" class="py-5 bg-light">
       <div class="container">
-        <div class="row g-4 mb-5">
+        <div class="text-center mb-5">
+          <h2 class="display-5 fw-bold text-primary mb-3">Our Products</h2>
+          <p class="lead">
+            Comprehensive range of dietary supplements for better health
+            outcomes
+          </p>
+        </div>
+        <div class="row g-4">
           <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0">
+            <div class="card h-100 shadow-sm">
               <img
                 src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae"
                 class="card-img-top"
                 alt="Cardiovascular"
               />
               <div class="card-body">
-                <h5 class="card-title text-primary mb-3">
-                  Cardiovascular Medicine
-                </h5>
-                <p class="card-text mb-4">
-                  Advanced treatments for heart disease, hypertension, and
-                  cardiovascular conditions with proven clinical efficacy.
+                <h5 class="card-title text-primary">Joint Cal</h5>
+                <p class="card-text">
+                  Advanced joint health supplement designed to support mobility
+                  and reduce inflammation.
                 </p>
-                <h6 class="text-primary mb-3">Key Products:</h6>
-                <ul class="list-unstyled mb-4">
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>CardioMax Pro</strong> - Heart failure treatment
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Joint
+                    Support
                   </li>
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>HyperBlock</strong> - Blood pressure control
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>
+                    Mobility Enhancement
                   </li>
-                  <li class="mb-2">
+                  <li>
                     <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>CholesterOff</strong> - Cholesterol management
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>AntiCoag Plus</strong> - Blood thinning therapy
+                    >Anti-inflammatory Properties
                   </li>
                 </ul>
-                <a href="#" class="btn btn-outline-primary">Learn More</a>
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0">
+            <div class="card h-100 shadow-sm">
               <img
                 src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b"
                 class="card-img-top"
                 alt="Oncology"
               />
               <div class="card-body">
-                <h5 class="card-title text-primary mb-3">Oncology</h5>
-                <p class="card-text mb-4">
-                  Innovative cancer treatments and therapies targeting various
-                  types of cancer with precision medicine approach.
+                <h5 class="card-title text-primary">NeuroTone</h5>
+                <p class="card-text">
+                  Neurotonic supplements for improved cognitive function and
+                  overall well-being.
                 </p>
-                <h6 class="text-primary mb-3">Key Products:</h6>
-                <ul class="list-unstyled mb-4">
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>OncoTarget</strong> - Targeted therapy
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>
+                    Cognitive Enhancement
                   </li>
-                  <li class="mb-2">
+                  <li>
                     <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>ImmunoBoost</strong> - Immunotherapy
+                    >Memory Support
                   </li>
-                  <li class="mb-2">
+                  <li>
                     <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>ChemoAdvanced</strong> - Chemotherapy
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>RadioSafe</strong> - Radiation sensitizer
+                    >Stress Relief
                   </li>
                 </ul>
-                <a href="#" class="btn btn-outline-primary">Learn More</a>
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0">
+            <div class="card h-100 shadow-sm">
               <img
                 src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063"
                 class="card-img-top"
                 alt="Respiratory"
               />
               <div class="card-body">
-                <h5 class="card-title text-primary mb-3">Respiratory Care</h5>
-                <p class="card-text mb-4">
-                  Comprehensive solutions for asthma, COPD, and other
-                  respiratory conditions with advanced delivery systems.
+                <h5 class="card-title text-primary">Ferti-M</h5>
+                <p class="card-text">
+                  Fertility supplements designed to support reproductive health
+                  and enhance fertility for male.
                 </p>
-                <h6 class="text-primary mb-3">Key Products:</h6>
-                <ul class="list-unstyled mb-4">
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>BreathEasy</strong> - Asthma inhaler
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>
+                    Reproductive Support
                   </li>
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>COPDRelief</strong> - COPD management
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>
+                    Fertility Enhancement
                   </li>
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>AllergyShield</strong> - Allergy treatment
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>PulmoMax</strong> - Pulmonary therapy
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>
+                    Male Enhancement
                   </li>
                 </ul>
-                <a href="#" class="btn btn-outline-primary">Learn More</a>
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0">
+            <div class="card h-100 shadow-sm">
               <img
                 src="https://images.unsplash.com/photo-1576091160550-2173dba999ef"
                 class="card-img-top"
                 alt="Diabetes"
               />
               <div class="card-body">
-                <h5 class="card-title text-primary mb-3">Diabetes Care</h5>
-                <p class="card-text mb-4">
-                  Complete diabetes management solutions with smart monitoring
-                  and insulin delivery technology.
+                <h5 class="card-title text-primary">Ferti-F</h5>
+                <p class="card-text">
+                  Fertility supplements designed to support reproductive health
+                  and enhance fertility for female.
                 </p>
-                <h6 class="text-primary mb-3">Key Products:</h6>
-                <ul class="list-unstyled mb-4">
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>DiabetesShield</strong> - Smart insulin system
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>
+                    Reproductive Support
                   </li>
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>GlucoMonitor</strong> - Continuous glucose
-                    monitoring
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>
+                    Fertility Enhancement
                   </li>
-                  <li class="mb-2">
+                  <li>
                     <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>MetforMax</strong> - Metformin extended release
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>InsulinPen Pro</strong> - Advanced insulin pen
+                    >Female Enhancement
                   </li>
                 </ul>
-                <a href="#" class="btn btn-outline-primary">Learn More</a>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0">
+          <!-- <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm">
               <img
                 src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56"
                 class="card-img-top"
                 alt="Vaccines"
               />
               <div class="card-body">
-                <h5 class="card-title text-primary mb-3">
-                  Vaccines & Prevention
-                </h5>
-                <p class="card-text mb-4">
+                <h5 class="card-title text-primary">Vaccines</h5>
+                <p class="card-text">
                   Preventive vaccines for various infectious diseases and
-                  comprehensive immunization programs.
+                  immunization.
                 </p>
-                <h6 class="text-primary mb-3">Key Products:</h6>
-                <ul class="list-unstyled mb-4">
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>FluGuard</strong> - Seasonal flu vaccine
+                <ul class="list-unstyled">
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Flu
+                    Vaccines
                   </li>
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>CovidShield</strong> - COVID-19 vaccine
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>COVID-19
+                    Vaccines
                   </li>
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>TravelSafe</strong> - Travel vaccination kit
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>PediaVax</strong> - Pediatric vaccines
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Travel
+                    Vaccines
                   </li>
                 </ul>
-                <a href="#" class="btn btn-outline-primary">Learn More</a>
               </div>
             </div>
           </div>
-
           <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm border-0">
+            <div class="card h-100 shadow-sm">
               <img
                 src="https://images.unsplash.com/photo-1576671081837-49000212a370"
                 class="card-img-top"
                 alt="Neurology"
               />
               <div class="card-body">
-                <h5 class="card-title text-primary mb-3">
-                  Neurology & Mental Health
-                </h5>
-                <p class="card-text mb-4">
-                  Advanced treatments for neurological disorders, brain health,
-                  and mental wellness solutions.
+                <h5 class="card-title text-primary">Neurology</h5>
+                <p class="card-text">
+                  Advanced treatments for neurological disorders and brain
+                  health.
                 </p>
-                <h6 class="text-primary mb-3">Key Products:</h6>
-                <ul class="list-unstyled mb-4">
-                  <li class="mb-2">
+                <ul class="list-unstyled">
+                  <li>
                     <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>NeuroRestore</strong> - Alzheimer's treatment
+                    >Alzheimer's Treatment
                   </li>
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>EpiControl</strong> - Epilepsy management
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Epilepsy
+                    Management
                   </li>
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>PainAway</strong> - Chronic pain relief
-                  </li>
-                  <li class="mb-2">
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    ><strong>MoodBalance</strong> - Depression therapy
+                  <li>
+                    <i class="bi bi-check-circle text-success me-2"></i>Pain
+                    Management
                   </li>
                 </ul>
-                <a href="#" class="btn btn-outline-primary">Learn More</a>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -495,11 +454,11 @@
                   >Products</a
                 >
               </li>
-              <li>
+              <!-- <li>
                 <a href="services.php" class="text-light text-decoration-none"
                   >Services</a
                 >
-              </li>
+              </li> -->
               <li>
                 <a href="aboutus.php" class="text-light text-decoration-none"
                   >About Us</a

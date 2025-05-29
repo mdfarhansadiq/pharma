@@ -84,9 +84,9 @@
           <li class="nav-item">
             <a class="nav-link" href="products.php">Products</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="services.php">Services</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="aboutus.php">About Us</a>
           </li>
@@ -221,7 +221,7 @@
   </section>
 
   <!-- Open Positions -->
-  <section class="py-5 bg-light">
+  <!-- <section class="py-5 bg-light">
     <div class="container">
       <div class="text-center mb-5">
         <h2 class="display-5 fw-bold text-primary mb-3">Open Positions</h2>
@@ -379,10 +379,22 @@
         <a href="#" class="btn btn-outline-primary btn-lg">View All Positions</a>
       </div>
     </div>
+  </section> -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="display-5 fw-bold text-primary mb-3">Open Positions</h2>
+        <p class="lead">
+          No current openings available. Please check back later or
+          <a href="contact.php" class="text-primary">contact us</a> for
+          potential opportunities.
+        </p>
+      </div>
+    </div>
   </section>
 
   <!-- Benefits -->
-  <section class="py-5">
+  <!-- <section class="py-5">
     <div class="container">
       <div class="text-center mb-5">
         <h2 class="display-5 fw-bold text-primary mb-3">Benefits & Perks</h2>
@@ -507,10 +519,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Application Process -->
-  <section class="py-5 bg-light">
+  <!-- <section class="py-5 bg-light">
     <div class="container">
       <div class="text-center mb-5">
         <h2 class="display-5 fw-bold text-primary mb-3">
@@ -577,7 +589,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Call to Action -->
   <section class="py-5 bg-primary text-white">
@@ -592,7 +604,7 @@
         </div>
         <div class="col-lg-4 text-lg-end">
           <a href="#" class="btn btn-light btn-lg me-3">Browse Jobs</a>
-          <a href="contact.html" class="btn btn-outline-light btn-lg">Contact HR</a>
+          <a href="contact.php" class="btn btn-outline-light btn-lg">Contact HR</a>
         </div>
       </div>
     </div>
@@ -661,12 +673,12 @@
         <div class="col-lg-2 col-md-6">
           <h6 class="fw-bold mb-3">Support</h6>
           <ul class="list-unstyled">
-            <li>
+            <!-- <li>
               <a href="#" class="text-light text-decoration-none">Patient Support</a>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="#" class="text-light text-decoration-none">Healthcare Providers</a>
-            </li>
+            </li> -->
             <li>
               <a href="#" class="text-light text-decoration-none">FAQs</a>
             </li>
