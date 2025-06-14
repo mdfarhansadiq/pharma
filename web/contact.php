@@ -46,7 +46,7 @@
       font-size: 18px;
       border: none;
       outline: none;
-      background-color: #007bff;
+      background-color: #06264c;
       color: white;
       cursor: pointer;
       padding: 10px 15px;
@@ -397,7 +397,7 @@
                 <!-- Add this inside your form before the submit button -->
                 <div class="col-12">
                   <button
-                    class="g-recaptcha btn btn-primary w-100"
+                    class="g-recaptcha btn btn-primary w-100" style="background-color: #06264c; color: #fff;"
                     data-sitekey="6LeoqksrAAAAAAvu0sF_idYYqxLqxMLrQWX4jSuP"
                     data-callback="onSubmit"
                     data-action="submit">

@@ -46,7 +46,7 @@
       font-size: 18px;
       border: none;
       outline: none;
-      background-color: #007bff;
+      background-color: #06264c;
       color: white;
       cursor: pointer;
       padding: 10px 15px;
@@ -59,10 +59,47 @@
     #scrollToTopBtn:hover {
       background-color: #0056b3;
     }
+
+
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #fff;
+      z-index: 9999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 5px solid #f3f3f3;
+      border-top: 5px solid #06264c;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
   </style>
 </head>
 
 <body>
+  <div id="preloader">
+    <div class="spinner"></div>
+  </div>
+
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
     <div class="container">
@@ -116,15 +153,15 @@
             through cutting-edge research and development.
           </p>
           <div class="d-flex flex-column flex-sm-row gap-3">
-            <a href="products.php" class="btn btn-primary btn-lg px-4">Our Products</a>
-            <a href="aboutus.php" class="btn btn-outline-primary btn-lg px-4">Learn More</a>
+            <a href="products.php" class="btn btn-lg px-4" style="background-color: #06264c; color: #fff;">Our Products</a>
+            <a href="aboutus.php" class="btn btn-outline-primary btn-lg px-4" style="background-color: #fff; color: #06264c; outline-color: #06264c !important;">Learn More</a>
           </div>
         </div>
         <div class="col-lg-6">
           <img
-            src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56"
-            class="img-fluid rounded shadow-lg"
-            alt="Pharmaceutical Research" />
+            src="SquibHealthcare.png"
+            class="img-fluid rounded" style="max-width: 100%; height: auto; max-height: 550px;"
+            alt="Squib Healthcare" />
         </div>
       </div>
     </div>
@@ -140,180 +177,70 @@
           outcomes
         </p>
       </div>
-      <div class="row g-4">
+      <div class="row gx-4 gy-4">
         <div class="col-lg-4 col-md-6">
-          <div class="card h-100 shadow-sm">
-            <img
-              src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae"
-              class="card-img-top"
-              alt="Cardiovascular" />
+          <div class="card h-100 shadow-sm border border-primary rounded-3">
+            <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae" class="card-img-top" alt="Cardiovascular" />
             <div class="card-body">
-              <h5 class="card-title text-primary">Joint Cal</h5>
-              <p class="card-text">
-                Advanced joint health supplement designed to support mobility
-                and reduce inflammation.
-              </p>
+              <h5 class="card-title text-primary"><b>Joint Cal</b></h5>
+              <p class="card-text">Advanced joint health supplement designed to support mobility and reduce inflammation.</p>
               <ul class="list-unstyled">
-                <li>
-                  <i class="bi bi-check-circle text-success me-2"></i>Joint
-                  Support
-                </li>
-                <li>
-                  <i class="bi bi-check-circle text-success me-2"></i>
-                  Mobility Enhancement
-                </li>
-                <li>
-                  <i class="bi bi-check-circle text-success me-2"></i>Anti-inflammatory Properties
-                </li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Joint Support</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Mobility Enhancement</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Anti-inflammatory Properties</li>
               </ul>
             </div>
           </div>
         </div>
+
         <div class="col-lg-4 col-md-6">
-          <div class="card h-100 shadow-sm">
-            <img
-              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b"
-              class="card-img-top"
-              alt="Oncology" />
+          <div class="card h-100 shadow-sm border border-primary rounded-3">
+            <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b" class="card-img-top" alt="Oncology" />
             <div class="card-body">
-              <h5 class="card-title text-primary">NeuroTone</h5>
-              <p class="card-text">
-                Neurotonic supplements for improved cognitive function and
-                overall well-being.
-              </p>
+              <h5 class="card-title text-primary"><b>NeuroTone</b></h5>
+              <p class="card-text">Neurotonic supplements for improved cognitive function and overall well-being.</p>
               <ul class="list-unstyled">
-                <li>
-                  <i class="bi bi-check-circle text-success me-2"></i>
-                  Cognitive Enhancement
-                </li>
-                <li>
-                  <i class="bi bi-check-circle text-success me-2"></i>Memory Support
-                </li>
-                <li>
-                  <i class="bi bi-check-circle text-success me-2"></i>Stress Relief
-                </li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Cognitive Enhancement</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Memory Support</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Stress Relief</li>
               </ul>
             </div>
           </div>
         </div>
+
         <div class="col-lg-4 col-md-6">
-          <div class="card h-100 shadow-sm">
-            <img
-              src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063"
-              class="card-img-top"
-              alt="Respiratory" />
+          <div class="card h-100 shadow-sm border border-primary rounded-3">
+            <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063" class="card-img-top" alt="Respiratory" />
             <div class="card-body">
-              <h5 class="card-title text-primary">Ferti-M</h5>
-              <p class="card-text">
-                Fertility supplements designed to support reproductive health
-                and enhance fertility for male.
-              </p>
+              <h5 class="card-title text-primary"><b>Ferti-M</b></h5>
+              <p class="card-text">Fertility supplements designed to support reproductive health and enhance fertility for male.</p>
               <ul class="list-unstyled">
-                <li>
-                  <i class="bi bi-check-circle text-success me-2"></i>
-                  Reproductive Support
-                </li>
-                <li>
-                  <i class="bi bi-check-circle text-success me-2"></i>
-                  Fertility Enhancement
-                </li>
-                <li>
-                  <i class="bi bi-check-circle text-success me-2"></i>
-                  Male Enhancement
-                </li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Reproductive Support</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Fertility Enhancement</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Male Enhancement</li>
               </ul>
             </div>
           </div>
         </div>
+
         <div class="col-lg-4 col-md-6">
-          <div class="card h-100 shadow-sm">
-            <img
-              src="https://images.unsplash.com/photo-1576091160550-2173dba999ef"
-              class="card-img-top"
-              alt="Diabetes" />
+          <div class="card h-100 shadow-sm border border-primary rounded-3">
+            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef" class="card-img-top" alt="Diabetes" />
             <div class="card-body">
-              <h5 class="card-title text-primary">Ferti-F</h5>
-              <p class="card-text">
-                Fertility supplements designed to support reproductive health
-                and enhance fertility for female.
-              </p>
+              <h5 class="card-title text-primary"><b>Ferti-F</b></h5>
+              <p class="card-text">Fertility supplements designed to support reproductive health and enhance fertility for female.</p>
               <ul class="list-unstyled">
-                <li>
-                  <i class="bi bi-check-circle text-success me-2"></i>
-                  Reproductive Support
-                </li>
-                <li>
-                  <i class="bi bi-check-circle text-success me-2"></i>
-                  Fertility Enhancement
-                </li>
-                <li>
-                  <i class="bi bi-check-circle text-success me-2"></i>Female Enhancement
-                </li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Reproductive Support</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Fertility Enhancement</li>
+                <li><i class="bi bi-check-circle text-success me-2"></i>Female Enhancement</li>
               </ul>
             </div>
           </div>
         </div>
-        <!-- <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm">
-              <img
-                src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56"
-                class="card-img-top"
-                alt="Vaccines"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-primary">Vaccines</h5>
-                <p class="card-text">
-                  Preventive vaccines for various infectious diseases and
-                  immunization.
-                </p>
-                <ul class="list-unstyled">
-                  <li>
-                    <i class="bi bi-check-circle text-success me-2"></i>Flu
-                    Vaccines
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle text-success me-2"></i>COVID-19
-                    Vaccines
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle text-success me-2"></i>Travel
-                    Vaccines
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="card h-100 shadow-sm">
-              <img
-                src="https://images.unsplash.com/photo-1576671081837-49000212a370"
-                class="card-img-top"
-                alt="Neurology"
-              />
-              <div class="card-body">
-                <h5 class="card-title text-primary">Neurology</h5>
-                <p class="card-text">
-                  Advanced treatments for neurological disorders and brain
-                  health.
-                </p>
-                <ul class="list-unstyled">
-                  <li>
-                    <i class="bi bi-check-circle text-success me-2"></i
-                    >Alzheimer's Treatment
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle text-success me-2"></i>Epilepsy
-                    Management
-                  </li>
-                  <li>
-                    <i class="bi bi-check-circle text-success me-2"></i>Pain
-                    Management
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div> -->
       </div>
+
+
+
     </div>
   </section>
 
@@ -476,7 +403,7 @@
               </div>
             </div> -->
 
-            <a href="contact.php" class="btn btn-primary btn-lg">Get in Touch</a>
+            <a href="contact.php" class="btn btn-lg" style="background-color: #06264c; color: #fff;">Get in Touch</a>
           </div>
         </div>
       </div>
@@ -691,7 +618,7 @@
                   <!-- Add this inside your form before the submit button -->
                   <div class="col-12">
                     <button
-                      class="g-recaptcha btn btn-primary w-100"
+                      class="g-recaptcha btn w-100" style="background-color: #06264c; color: #fff;"
                       data-sitekey="6LeoqksrAAAAAAvu0sF_idYYqxLqxMLrQWX4jSuP"
                       data-callback="onSubmit"
                       data-action="submit">
@@ -896,6 +823,16 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
+  <script>
+    // Preloader
+    // Preloader
+    window.addEventListener("load", function() {
+      const preloader = document.getElementById("preloader");
+      setTimeout(() => {
+        preloader.style.display = "none";
+      }, 2000); // Ensures the preloader is visible for at least 2 seconds
+    });
+  </script>
 </body>
 
 </html>
