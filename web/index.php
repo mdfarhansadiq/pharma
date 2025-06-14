@@ -66,7 +66,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="index.php">
+      <a class="navbar-brand fw-bold" href="/">
         <i class="bi bi-capsule me-2"></i>Squib Healthcare LTD
       </a>
       <button
@@ -730,7 +730,7 @@
           <h6 class="fw-bold mb-3">Quick Links</h6>
           <ul class="list-unstyled">
             <li>
-              <a href="index.php" class="text-light text-decoration-none">Home</a>
+              <a href="/" class="text-light text-decoration-none">Home</a>
             </li>
             <li>
               <a href="products.php" class="text-light text-decoration-none">Products</a>
