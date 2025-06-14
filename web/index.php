@@ -734,7 +734,8 @@
       <div class="row align-items-center">
         <div class="col-md-6">
           <p class="mb-0">
-            &copy; 2024 Squib Healthcare LTD. All rights reserved.
+            &copy; <span id="currentYear"></span> Squib Healthcare LTD. All rights reserved. Designed and
+            Developed by <a href="https://applivar.com" target="_blank" class="text-light text-decoration-none"><b>Applivar</b></a>
           </p>
         </div>
         <div class="col-md-6 text-md-end">
@@ -825,13 +826,7 @@
   <script src="script.js"></script>
   <script>
     // Preloader
-    // Preloader
-    window.addEventListener("load", function() {
-      const preloader = document.getElementById("preloader");
-      setTimeout(() => {
-        preloader.style.display = "none";
-      }, 2000); // Ensures the preloader is visible for at least 2 seconds
-    });
+    
   </script>
 </body>
 

@@ -171,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     aboutObserver.observe(aboutSection);
   }
-
+  document.getElementById("currentYear").textContent = new Date().getFullYear();
   // Get the button
   let scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
@@ -193,5 +193,13 @@ document.addEventListener("DOMContentLoaded", function () {
       top: 0,
       behavior: "smooth",
     });
+  });
+
+  // Preloader
+  window.addEventListener("load", function () {
+    const preloader = document.getElementById("preloader");
+    setTimeout(() => {
+      preloader.style.display = "none";
+    }, 2000); // Ensures the preloader is visible for at least 2 seconds
   });
 });
