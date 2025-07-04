@@ -129,7 +129,7 @@
           </li>
           <!-- <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li> -->
           <li class="nav-item">
-            <a class="nav-link" href="contact.php">Contact</a>
+            <a class="nav-link" href="/contact">Contact</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="careers.php">Careers</a>
