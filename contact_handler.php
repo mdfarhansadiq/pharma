@@ -39,7 +39,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     if (empty($recaptcha)) {
         $errors[] = "Please complete the reCAPTCHA.";
-        header("Location: index.php?recaptcha_error=1");
+        header("Location: /?recaptcha_error=1");
         exit;
     }
 
@@ -102,10 +102,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $mail->send();
 
-        header("Location: index.php?success=1");
+        header("Location: /?success=1");
         exit;
     } catch (Exception $e) {
-        header("Location: index.php?error=1");
+        header("Location: /?error=1");
         exit;
     }
 } else {

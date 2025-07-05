@@ -119,20 +119,20 @@
             <a class="nav-link fw-bold" style="color: #fff" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="products.php">Products</a>
+            <a class="nav-link" href="/products">Products</a>
           </li>
           <!-- <li class="nav-item">
               <a class="nav-link" href="services.php">Services</a>
             </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="aboutus.php">About Us</a>
+            <a class="nav-link" href="/aboutus">About Us</a>
           </li>
           <!-- <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li> -->
           <li class="nav-item">
             <a class="nav-link" href="/contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="careers.php">Careers</a>
+            <a class="nav-link" href="/careers">Careers</a>
           </li>
         </ul>
       </div>
@@ -153,8 +153,8 @@
             through cutting-edge research and development.
           </p>
           <div class="d-flex flex-column flex-sm-row gap-3">
-            <a href="products.php" class="btn btn-lg px-4" style="background-color: #06264c; color: #fff;">Our Products</a>
-            <a href="aboutus.php" class="btn btn-outline-primary btn-lg px-4" style="background-color: #fff; color: #06264c; outline-color: #06264c !important;">Learn More</a>
+            <a href="/products" class="btn btn-lg px-4" style="background-color: #06264c; color: #fff;">Our Products</a>
+            <a href="/aboutus" class="btn btn-outline-primary btn-lg px-4" style="background-color: #fff; color: #06264c; outline-color: #06264c !important;">Learn More</a>
           </div>
         </div>
         <div class="col-lg-6">
@@ -403,7 +403,7 @@
               </div>
             </div> -->
 
-            <a href="contact.php" class="btn btn-lg" style="background-color: #06264c; color: #fff;">Get in Touch</a>
+            <a href="/contact" class="btn btn-lg" style="background-color: #06264c; color: #fff;">Get in Touch</a>
           </div>
         </div>
       </div>
@@ -563,7 +563,7 @@
               <h4 class="text-primary mb-4 text-center">Send us a Message</h4>
               <form
                 id="contact-form"
-                action="contact_handler.php"
+                action="contact_handler"
                 method="POST">
                 <div class="row g-3">
                   <div class="col-md-6">
@@ -660,7 +660,7 @@
               <a href="/" class="text-light text-decoration-none">Home</a>
             </li>
             <li>
-              <a href="products.php" class="text-light text-decoration-none">Products</a>
+              <a href="/products" class="text-light text-decoration-none">Products</a>
             </li>
             <!-- <li>
                 <a href="services.php" class="text-light text-decoration-none"
@@ -668,13 +668,13 @@
                 >
               </li> -->
             <li>
-              <a href="aboutus.php" class="text-light text-decoration-none">About Us</a>
+              <a href="/aboutus" class="text-light text-decoration-none">About Us</a>
             </li>
             <li>
-              <a href="contact.php" class="text-light text-decoration-none">Contact</a>
+              <a href="/contact" class="text-light text-decoration-none">Contact</a>
             </li>
             <li>
-              <a href="careers.php" class="text-light text-decoration-none">Careers</a>
+              <a href="/careers" class="text-light text-decoration-none">Careers</a>
             </li>
           </ul>
         </div>
@@ -826,7 +826,6 @@
   <script src="script.js"></script>
   <script>
     // Preloader
-    
   </script>
 </body>
 

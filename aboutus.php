@@ -82,20 +82,20 @@
             <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="products.php">Products</a>
+            <a class="nav-link" href="/products">Products</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link" href="services.php">Services</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link fw-bold" style="color: #fff" href="aboutus.php">About Us</a>
+            <a class="nav-link fw-bold" style="color: #fff" href="/aboutus">About Us</a>
           </li>
           <!-- <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li> -->
           <li class="nav-item">
-            <a class="nav-link" href="contact.php">Contact</a>
+            <a class="nav-link" href="/contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="careers.php">Careers</a>
+            <a class="nav-link" href="/careers">Careers</a>
           </li>
         </ul>
       </div>
@@ -440,8 +440,8 @@
           </p>
         </div>
         <div class="col-lg-4 text-lg-end">
-          <a href="contact.php" class="btn btn-light btn-lg me-3">Contact Us</a>
-          <a href="careers.php" class="btn btn-outline-light btn-lg">Careers</a>
+          <a href="/contact" class="btn btn-light btn-lg me-3">Contact Us</a>
+          <a href="/careers" class="btn btn-outline-light btn-lg">Careers</a>
         </div>
       </div>
     </div>
@@ -474,19 +474,19 @@
               <a href="/" class="text-light text-decoration-none">Home</a>
             </li>
             <li>
-              <a href="products.php" class="text-light text-decoration-none">Products</a>
+              <a href="/products" class="text-light text-decoration-none">Products</a>
             </li>
             <!-- <li>
               <a href="services.php" class="text-light text-decoration-none">Services</a>
             </li> -->
             <li>
-              <a href="aboutus.php" class="text-light text-decoration-none">About Us</a>
+              <a href="/aboutus" class="text-light text-decoration-none">About Us</a>
             </li>
             <li>
-              <a href="contact.php" class="text-light text-decoration-none">Contact</a>
+              <a href="/contact" class="text-light text-decoration-none">Contact</a>
             </li>
             <li>
-              <a href="careers.php" class="text-light text-decoration-none">Careers</a>
+              <a href="/careers" class="text-light text-decoration-none">Careers</a>
             </li>
           </ul>
         </div>
